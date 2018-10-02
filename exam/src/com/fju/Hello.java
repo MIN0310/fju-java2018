@@ -6,13 +6,18 @@ public class Hello {
 		// TODO Auto-generated method stub
     System.out.println("Hello");
     int age = 18;
-    int weight = 51;
+    float weight = 51.5f;
     int schoolYear = 107;
-    float height = 158.2f;
+    float height = 1.582f;
     System.out.println(age);
     System.out.println(weight);
     System.out.println(schoolYear);
     System.out.println(height);
+    float bmi = weight / (height * height);
+    System.out.println(bmi);
+    age = age + 1;
+    System.out.println(age);
+    
 	}
 
 }
