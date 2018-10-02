@@ -8,9 +8,11 @@ public class Hello {
     int age = 18;
     int weight = 51;
     int schoolYear = 107;
+    float height = 158.2f;
     System.out.println(age);
     System.out.println(weight);
     System.out.println(schoolYear);
+    System.out.println(height);
 	}
 
 }
