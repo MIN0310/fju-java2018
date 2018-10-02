@@ -19,7 +19,7 @@ public class Hello {
         System.out.println(lastName);
         float bmi = weight / (height * height);
         System.out.println(bmi);
-        age = age + 1;
+        age = age + 2;
         System.out.println(age);
 	}
 
