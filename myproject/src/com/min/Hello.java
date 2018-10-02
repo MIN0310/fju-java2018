@@ -9,12 +9,14 @@ public class Hello {
         float height = 158.2f;
         char weight = 51;
         short schoolYear = 107;
-        String firstName = "Chiamin";
+        String firstName = "Chia min ";
+        String lastName = "Huang";
         System.out.println(age);
         System.out.println(height);
         System.out.println(weight);		
         System.out.println(schoolYear);	
         System.out.print(firstName);
+        System.out.println(lastName);
 	}
 
 }
