@@ -11,8 +11,14 @@ public class Hello {
 		// Person Jasmine = new Person();
 		// Person jack = null;
 		// jack.hello();
-
-		 /*System.out.println("Hello World");
+			
+		String name = "Hank";
+		int english = 70;
+		int math = 90;
+		System.out.println( name +"\t"+ english +"\t"+ math +"\t"+(english + math)/2);
+		
+		
+			/*System.out.println("Hello World");
 	        int age = 18;
 	        float height = 1.582f;
 	        char weight = 51;
