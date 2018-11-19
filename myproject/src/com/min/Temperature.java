@@ -1,15 +1,17 @@
 package com.min;
 
 public class Temperature {
-	double celsius;
 
-	public Temperature() {
-		this.celsius = celsius;
+	double Celsius;
+
+	public Temperature(double Celsius) {
+
+		this.Celsius = Celsius;
 	}
-	public void fahrenheit(){
-		double fahrenheit = celsius*(9/5.0)+32;
-		
-		
-		
+
+	public double Fahrenheit() {
+		double Fahrenheit = Celsius * (9 / 5.0) + 32;
+        return Fahrenheit;
 	}
+	
 }
